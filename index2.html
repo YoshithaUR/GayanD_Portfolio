@@ -723,6 +723,11 @@ and Postgrey systems. <br>
               <h2 class="ftco-heading-2">About</h2>
               <p>Experienced Database Manager at Onsys Technologies Sri Lanka, adept at Oracle, EBS, and various operating systems, adaptable, efficient, and eager to learn in IT-related environments.</p>
               <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-5">
+				<li class="ftco-animate">
+  <a href="#" onclick="openWhatsApp()" title="Chat on WhatsApp">
+    <span class="icon-whatsapp"></span>
+  </a>
+</li>
                 <li class="ftco-animate"><a href="https://www.linkedin.com/in/gayan-dhanushka-jayathilake-848697b2/"><span class="icon-linkedin"></span></a></li>
                 <li class="ftco-animate"><a href="https://web.facebook.com/gayan.jayathilake.14/"><span class="icon-facebook"></span></a></li>
                 <li class="ftco-animate"><a href="https://www.instagram.com/dhanushka.jayd/"><span class="icon-instagram"></span></a></li>
@@ -795,5 +800,15 @@ and Postgrey systems. <br>
   <script src="js/scrollax.min.js"></script>
   
   <script src="js/main.js"></script>
+
+    <script>
+  function openWhatsApp() {
+    const phoneNumber = "717777940"; // Without '+' and leading zero
+    const message = "Hello, I'm interested in your Database  services. Can we discuss further?";
+    const encodedMessage = encodeURIComponent(message);
+    const whatsappURL = `https://wa.me/${phoneNumber}?text=${encodedMessage}`;
+    window.open(whatsappURL, '_blank');
+  }
+  </script>
 </body>
 </html>
